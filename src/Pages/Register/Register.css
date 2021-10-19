@@ -1,0 +1,9 @@
+.div{
+    background-color: aqua;
+}
+.register-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}

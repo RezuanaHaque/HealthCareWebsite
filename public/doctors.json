@@ -1,0 +1,26 @@
+[
+    {
+      "_id": 0,
+      "picture": "http://html.kodesolution.live/html/health-beauty/medical/medinova-html/v3.2/demo/images/team/team1.jpg",
+      "name": "Lucinda Lloyd",
+      "about": "MBBS,MBChirB(Bachelor of Medicine and Surgery)"
+    },
+    {
+      "_id": 10,
+      "picture": "http://html.kodesolution.live/html/health-beauty/medical/medinova-html/v3.2/demo/images/team/team2.jpg",
+      "name": "Nona Mcbride",
+      "about": "MBBS,Dip Av Med(Diploma in Aviation Medicine)"
+    },
+    {
+      "_id": 20,
+      "picture": "http://html.kodesolution.live/html/health-beauty/medical/medinova-html/v3.2/demo/images/team/team3.jpg",
+      "name": "Roberta Hart",
+      "about": "MBBS,DCH(Diploma in Child Health)"
+    },
+    {
+      "_id": 30,
+      "picture": "http://html.kodesolution.live/html/health-beauty/medical/medinova-html/v3.2/demo/images/team/team4.jpg",
+      "name": "Silvia Elliott",
+      "about": "MBBS,MBChirB(Bachelor of Medicine and Surgery)"
+    }
+  ]

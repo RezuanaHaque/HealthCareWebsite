@@ -1,0 +1,25 @@
+import React from 'react';
+import { Card, Button, Col } from 'react-bootstrap';
+
+const Eachdoctor = (props) => {
+    const { picture, name, about } = props.doctor;
+    return (
+        <div>
+            <Col>
+                <Card style={{ width: '14rem' }}>
+                    <Card.Img variant="top" src={picture} width="100px" height="200px" />
+                    <Card.Body>
+                        <Card.Title>{name}</Card.Title>
+                        <small>Neurosergon</small>
+                        <Card.Text>
+                            <small>{about}</small>
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+            </Col>
+        </div>
+    );
+};
+
+export default Eachdoctor;
