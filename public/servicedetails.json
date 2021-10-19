@@ -1,0 +1,76 @@
+{"employee":[
+    {
+      "login":{
+        "id": 0
+      },
+      "price": "$304.7",
+      "picture": "https://cdn5.vectorstock.com/i/1000x1000/70/19/banner-background-concept-about-coronavirus-vector-30147019.jpg",
+      "name": "Covid-19 Service",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (991) 491-3759",
+      "about": "We have special isolation ward and other great facilities for covid patients",
+      "description": "United Hospital Ltd. has the most robust and comprehensive COVID care facility in the country. To augment this, we have round-the-clock 24/7 multidisciplinary support of Pulmonologist, Internal Medicine, Nephrologist, Radiologist, Cardiologist and others along with a modern well-equipped treatment facility, with a dedicated In-patient COVID treatment facility segregated from Non-Covid area:40 adult ICU beds with ventilators 26 High Flow Nasal Cannula General Ward and Cabins Separate COVID suspected & COVID Positive in-patient area Dedicated Intensivist coverage in all critical care areas United Hospital Ltd. has been acting as one of the best hospitals for treating patients with Coronavirus in Dhaka. United Hospital provides 24/7 specialist coverage in Emergency to triage & identify COVID & Non-COVID patients, reliable Coronavirus/ COVID test by RT PCR method in out-patient, Post Covid Rehab, home sample collection, bulk sample collection & fast track service."
+    },
+    {
+        "login":{
+            "id": 1
+          },
+      "price": "$315.1",
+      "picture": "https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-flat-wind-hospital-emergency-medical-system-sos-poster-background-image_242952.jpg",
+      "name": "Emergency Care",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (971) 403-2536",
+      "about": "We are always ready to help you in your emergency.",
+      "description": "The Accident and Emergency Department of United Hospital is a 24-hour, full time section and it is the mirror of United Hospital. It offers the highest degree of commitment to delivering quality and efficient emergency care. Prompt and rapid response of our skilled medical personnel defines our Accident & Emergency Unit. This is where very critically ill and injured patients are received and managed.  "
+    },
+    {
+        "login":{
+            "id": 2
+          },
+      "price": "$110.9",
+      "picture": "https://cdn1.vectorstock.com/i/1000x1000/94/25/nurse-in-hospital-ward-flat-vector-23929425.jpg",
+      "name": "Outdoor Checkup",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (908) 570-2146",
+      "about": "We provide special features for outdoor checkup.",
+      "description": "SQUARE Hospital ensures the best healthcare service comprise of professional (clinical) service excellence with outstanding personal service. Qualified Doctors. "
+    },
+    {
+        "login":{
+            "id": 3
+          },
+      "price": "$246.3",
+      "picture": "https://thumbs.dreamstime.com/b/pharmacy-banner-white-pink-tablets-pills-blue-background-round-oval-tablets-painkiller-medicine-acetaminophen-212650104.jpg",
+      "banner": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
+      "name": "Pharmacy",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (841) 529-3057",
+      "about": "We have a pharmacy from where you can buy your medicines.",
+      "description": "We have out own hospital pharmacy. You are buy medicine easily from our pharmacy. We are providing best services even. You can also buy your necessary medicines online from our website. You can also will us physically to buy your medicine. Here we kept all kinds of rare medicines too. so dont forget visit us"
+    },
+    {
+        "login":{
+            "id": 4
+          },
+      "price": "$329.1",
+      "picture": "https://images.squarespace-cdn.com/content/v1/5c70fd5ec46f6d147e9ece5c/1586315011360-MGCH8H3YM1D5YTY5GPX7/Screen+Shot+2020-04-08+at+1.02.32+pm.png?format=2500w",
+    
+      "name": "Dental Unit",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (948) 599-3739",
+      "about": "Suffering from toothache?Our dental unit is ready to serve you",
+      "description": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease."
+    },
+    {
+        "login":{
+            "id": 5
+          },
+      "price": "$352.5",
+      "picture": "https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-public-welfare-blood-donation-volunteer-rescue-image_11578.jpg",
+      "name": "Blood Bank",
+      "email": "richardvelasquez@flotonic.com",
+      "phone": "+1 (944) 494-3562",
+      "about": "We have special blood unit to save lives.",
+      "description": "Evercare Blood Bank is a place for collecting, screening, typing, processing, and storing whole blood, packed red blood cells, fresh frozen plasma and platelet concentrate, gathered as a result of blood donation, preserved for patient use in this hospital and other hospitals on request. Evercare Blood Bank, located in basement level of the hospital, is the first government registered hospital blood bank in Dhaka Metropolitan Area. We are committed to keeping pace with the demands of providing 24-hour service by cutting-edge technology and the most secure blood transfusion policy, and we maintain quality in every stride. We provide blood and blood product by standard protocol in all aspects of blood screening, grouping, compatibility testing, component preparation, storage, and transportation. "
+    }
+  ]}

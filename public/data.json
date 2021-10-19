@@ -2,64 +2,63 @@
   {
     "id": 0,
     "price": "$304.7",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
+    "picture": "https://image.freepik.com/free-vector/coronavirus-blood-test_23-2148540506.jpg",
     "name": "Covid-19 Service",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (991) 491-3759",
-    "about": "Voluptate reprehenderit anim do id eiusmod quis fugiat. Anim est culpa ea consequat incididunt magna mollit aliquip. Occaecat excepteur eu sint est irure. Sint irure id dolor incididunt culpa ipsum nostrud ut id. Cillum eiusmod duis eu laboris mollit fugiat incididunt. Fugiat do officia amet amet pariatur ullamco velit do velit mollit ipsum. In magna magna anim incididunt consectetur deserunt in ut sint esse incididunt nisi.\r\n",
+    "about": "We have special isolation ward and other great facilities for covid patients",
     "description": "dfd"
   },
   {
     "id": 1,
     "price": "$315.1",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
-
+    "picture": "https://st4.depositphotos.com/33442250/39529/v/950/depositphotos_395291208-stock-illustration-ambulance-icon-vector-illustration-website.jpg",
     "name": "Emergency Care",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (971) 403-2536",
-    "about": "Ut sunt aliqua Lorem fugiat. Nulla proident fugiat commodo do commodo minim. Eiusmod deserunt est culpa quis irure elit. Voluptate do quis elit eiusmod fugiat sunt et sit laboris pariatur reprehenderit reprehenderit. Ex amet quis est proident qui dolore reprehenderit ut est laboris laborum. Velit non fugiat proident nisi incididunt do nostrud magna. Sit anim magna consectetur mollit nisi anim esse sit est cupidatat.\r\n",
+    "about": "We are always ready to help you in your emergency.",
     "description": " dfsd"
   },
   {
     "id": 2,
     "price": "$110.9",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
+    "picture": "https://st.depositphotos.com/1498512/4456/v/950/depositphotos_44569351-stock-illustration-diagnosis-vector-illustration.jpg",
     "name": "Outdoor Checkup",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (908) 570-2146",
-    "about": "Qui fugiat qui laboris fugiat anim. Dolor aliquip enim fugiat ullamco eiusmod esse esse. Voluptate enim aliquip duis sit. Excepteur et irure consequat ad quis sint nisi reprehenderit laborum do minim aliqua ad.\r\n",
+    "about": "We provide special features for outdoor checkup.",
     "description": "dfsdfef "
   },
   {
     "id": 3,
     "price": "$246.3",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
+    "picture": "https://st2.depositphotos.com/3134415/6567/v/950/depositphotos_65675725-stock-illustration-apothecary-behind-the-counter-at.jpg",
     "banner": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
     "name": "Pharmacy",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (841) 529-3057",
-    "about": "Fugiat dolor id deserunt commodo commodo culpa eu exercitation veniam non incididunt occaecat nostrud qui. Quis nostrud aute anim mollit excepteur culpa quis commodo minim pariatur reprehenderit fugiat elit sit. Adipisicing sunt adipisicing qui excepteur minim aliqua cillum reprehenderit deserunt. Laborum ipsum culpa esse est dolor. Nulla labore id ipsum irure adipisicing.\r\n",
+    "about": "We have a pharmacy from where you can buy your medicines.",
     "description": "dsd "
   },
   {
     "id": 4,
     "price": "$329.1",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
+    "picture": "https://st.depositphotos.com/1001877/3030/i/950/depositphotos_30301687-stock-photo-tooth-and-dental-equipment-on.jpg",
   
     "name": "Dental Unit",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (948) 599-3739",
-    "about": "Exercitation labore aliquip non tempor elit laboris ex. Et ut ad sit Lorem. Cillum cupidatat nostrud amet amet exercitation dolor. Elit sunt et tempor nostrud incididunt amet quis amet reprehenderit magna elit anim commodo. Id qui tempor enim exercitation in.\r\n",
+    "about": "Our dental unit is always ready to serve you",
     "description": "cscs "
   },
   {
     "id": 5,
     "price": "$352.5",
-    "picture": "https://image.shutterstock.com/image-photo/hand-doctor-holding-bottle-blood-260nw-319451999.jpg",
-    "name": "Blood Test",
+    "picture": "https://static7.depositphotos.com/1194063/769/i/950/depositphotos_7693938-stock-photo-blood-test.jpg",
+    "name": "Blood Bank",
     "email": "richardvelasquez@flotonic.com",
     "phone": "+1 (944) 494-3562",
-    "about": "Pariatur mollit non sint laborum consequat consectetur pariatur. Tempor ad qui est dolore sit quis ut non in duis eiusmod ullamco ut. Id irure occaecat consequat enim incididunt adipisicing magna consequat irure id quis amet adipisicing duis. Nisi in voluptate fugiat quis cupidatat consequat excepteur est aliquip. Fugiat proident anim dolore aute ullamco.\r\n",
+    "about": "We have special blood unit to save lives.",
     "description": "sc "
   }
 ]
