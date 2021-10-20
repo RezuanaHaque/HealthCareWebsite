@@ -7,4 +7,4 @@ Live site: https://health-care-hospital-96dc7.web.app/
 - people can book appointments for their checkup
 - this is a hospital's website which has all the facilities online
 - people can take amlulance service,covid service etc
-- We included an emercynumber for emergency services
+- We included an emergency number for emergency cases
