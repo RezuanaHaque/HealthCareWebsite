@@ -7,7 +7,7 @@ const UseServices = () => {
         .then(res=>res.json())
         .then(data=>setServices(data))
     },[])
-    // console.log(serviceList);
+
     return [serviceList]
 };
 

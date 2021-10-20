@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Eachservice = (props) => {
     const {id,name,picture,about}=props.service;
-    // console.log(props.service);
-    // const {name,id}=service;
+
     return (
         <div>
            <Col>

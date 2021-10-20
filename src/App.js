@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Banner from './Pages/Banner/Banner';
@@ -26,14 +25,15 @@ function App() {
           <Header></Header>
           <Switch>
             <Route exact path="/">
-              <Banner></Banner>
+               <Banner></Banner>
               <Services></Services>
-              <Doctors></Doctors>
+              <Doctors></Doctors> 
             </Route>
             <Route path="/home">
-              <Banner></Banner>
+               <Banner></Banner>
               <Services></Services>
-              <Doctors></Doctors>
+              <Doctors></Doctors> 
+              
             </Route>
             <Route path="/login">
               <Login></Login>

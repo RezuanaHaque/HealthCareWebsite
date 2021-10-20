@@ -6,7 +6,7 @@ const Eachdoctor = (props) => {
     return (
         <div>
             <Col>
-                <Card style={{ width: '14rem' }}>
+                <Card style={{ width: '13rem' }}>
                     <Card.Img variant="top" src={picture} width="100px" height="200px" />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
@@ -14,7 +14,7 @@ const Eachdoctor = (props) => {
                         <Card.Text>
                             <small>{about}</small>
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Take Appointment</Button>
                     </Card.Body>
                 </Card>
             </Col>

@@ -4,7 +4,7 @@ import initializeAuth from '../Firebase/Firebase.init';
 initializeAuth()
 const UseFirebase = () => {
     const [user, setUser] = useState({})
-    const [error, setError] = useState({})
+    const [error, setError] = useState('')
     const [loading, setLoading] = useState(true)
     const auth = getAuth();
 
@@ -14,26 +14,27 @@ const UseFirebase = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
                 setUser(result.user)
-                // console.log(result.user);
             })
             
             .catch((error) => {
-                setError(error.message);
+                setError(error);
             })
-            .finally(() => setLoading(false));
+            .finally(() => 
+            setLoading(false));
     }
     const emailSignin = (email, password, name) => {
+ 
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 setProfile(name)
                 setUser(result.user)
+                window.location.reload();
                 setError('')
 
             })
             .catch((error) => {
-                setError(error.message)
+                setError(error)
             });
-        // console.log("from hook",email,password)
     }
     const emailLogin = (email, password) => {
         setLoading(true)
@@ -41,22 +42,21 @@ const UseFirebase = () => {
             .then((result) => {
                 setUser(result.user)
                 setError('')
-                // console.log(result.user);
+                
             }).finally(() => setLoading(false))
             .catch((error) => {
-                setError(error.message)
+                setError(error)
             });
             
-        // console.log("from hook",email,password)
+        
     }
     const setProfile = (name) => {
-        // console.log("hook",name);
         updateProfile(auth.currentUser, {
             displayName: name
         }).then(() => {
 
         }).catch((error) => {
-            setError(error.message)
+            setError(error)
         });
     }
     useEffect(() => {
@@ -68,7 +68,7 @@ const UseFirebase = () => {
         });
         
 
-    },[])
+    })
     const logOut = () => {
         setLoading(true)
         signOut(auth).then(() => {
@@ -76,7 +76,7 @@ const UseFirebase = () => {
         })
             .finally(() => setLoading(false))
             .catch((error) => {
-                setError(error.message)
+                setError(error)
             });
 
     }
@@ -88,7 +88,8 @@ const UseFirebase = () => {
         emailSignin,
         emailLogin,
         setProfile,
-        loading
+        loading,
+        setError
 
     }
 };
