@@ -2,6 +2,7 @@ import React from 'react';
 
 const Error = () => {
     return (
+        // 404 route 
         <div> 
             <div className=" p-5 mx-auto align-self-center justify-content-center">
                 <img width="400px" height="300px" className="  mx-auto d-block" src="https://png.pngtree.com/png-vector/20191031/ourlarge/pngtree-socket-404-error-page-for-desktop-and-mobile-png-image_1928856.jpg" alt="" />

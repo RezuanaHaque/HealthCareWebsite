@@ -5,7 +5,7 @@ import UseAuth from '../../Hooks/UseAuth';
 import "./Login.css"
 
 const Login = () => {
-    const { googleSignin, emailLogin,error,setError } = UseAuth()
+    const { googleSignin, emailLogin,error } = UseAuth()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const handleLogin = (e) => {
@@ -25,6 +25,9 @@ const Login = () => {
                     <input onBlur={e => { setPassword(e.target.value) }} type="password" name="" placeholder="password" id="" />
                     <br />
                     <div className="text-danger"> {error} </div>
+                    {
+                        console.log(error.message)
+                    }
                     <input className="my-3 bg-info fw-bold" type="submit" value="Login" />
                 </form>
                 <p>New to Health-Care? <Link to="/register">Create Acount</Link></p>

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Appointment.css"
 const Appointment = () => {
     return (
+        // appointment route 
         <div className="text-center mt-5 border  shadow-lg p-5 mb-5 bg-body rounded p-5 margin">
             <h1 className="mb-5">Do you want to consult a doctor?</h1>
             <form className="w-50 form">

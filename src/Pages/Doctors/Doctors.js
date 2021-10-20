@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import Eachdoctor from './Eachdoctor';
 
 const Doctors = () => {
+    // loading info of doctor.json file(our team section)
     const [doctors, setDoctors] = useState([])
     useEffect(() => {
         fetch("/doctors.json")

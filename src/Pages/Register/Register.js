@@ -12,7 +12,7 @@ const Register = () => {
         e.preventDefault()
         if(password.length<6)
         {
-            setError("Please enter a valid password which is greater than 6 characters")
+            setError("The password must be more than 6 characters")
 
             
             return;
@@ -42,6 +42,7 @@ const Register = () => {
                 />
                 <br />
                 <br />
+                {/* for printing the error  */}
                 <div className="text-danger"> {error} </div>
                 <input className="bg-info my-3" type="submit" value="Submit" />
             </form>

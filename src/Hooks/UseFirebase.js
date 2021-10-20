@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAuth, signInWithPopup, onAuthStateChanged, updateProfile, GoogleAuthProvider, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithPopup, onAuthStateChanged, sendEmailVerification, updateProfile, GoogleAuthProvider, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import initializeAuth from '../Firebase/Firebase.init';
 initializeAuth()
 const UseFirebase = () => {
@@ -14,26 +14,36 @@ const UseFirebase = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
                 setUser(result.user)
+                setError('')
+                // signinLink(email)
             })
-            
+
             .catch((error) => {
-                setError(error);
+                setError(error.message);
             })
-            .finally(() => 
-            setLoading(false));
+            .finally(() =>
+                setLoading(false));
+    }
+    const verifyMail = () => {
+        sendEmailVerification(auth.currentUser)
+            .then((result) => {
+
+            });
+
     }
     const emailSignin = (email, password, name) => {
- 
+
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 setProfile(name)
                 setUser(result.user)
                 window.location.reload();
+                verifyMail()
                 setError('')
 
             })
             .catch((error) => {
-                setError(error)
+                setError(error.message);
             });
     }
     const emailLogin = (email, password) => {
@@ -42,13 +52,14 @@ const UseFirebase = () => {
             .then((result) => {
                 setUser(result.user)
                 setError('')
-                
-            }).finally(() => setLoading(false))
+
+            })
             .catch((error) => {
-                setError(error)
-            });
-            
-        
+                setError(error.message);
+            })
+            .finally(() => setLoading(false));
+
+
     }
     const setProfile = (name) => {
         updateProfile(auth.currentUser, {
@@ -56,7 +67,7 @@ const UseFirebase = () => {
         }).then(() => {
 
         }).catch((error) => {
-            setError(error)
+            setError(error.message);
         });
     }
     useEffect(() => {
@@ -66,17 +77,18 @@ const UseFirebase = () => {
             }
             setLoading(false)
         });
-        
+
 
     })
     const logOut = () => {
         setLoading(true)
         signOut(auth).then(() => {
             setUser({})
+            setError('')
         })
             .finally(() => setLoading(false))
             .catch((error) => {
-                setError(error)
+                setError(error.message);
             });
 
     }
@@ -90,6 +102,7 @@ const UseFirebase = () => {
         setProfile,
         loading,
         setError
+        // signinLink
 
     }
 };

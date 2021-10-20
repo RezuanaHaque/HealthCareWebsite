@@ -5,6 +5,7 @@ const Eachdoctor = (props) => {
     const { picture, name, about } = props.doctor;
     return (
         <div>
+            {/* for showing all the info of doctor.json file */}
             <Col>
                 <Card style={{ width: '13rem' }}>
                     <Card.Img variant="top" src={picture} width="100px" height="200px" />

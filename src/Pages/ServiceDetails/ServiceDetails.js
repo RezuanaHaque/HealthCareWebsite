@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card,Button } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const ServiceDetails = () => {
     const { serviceID } = useParams()
@@ -21,16 +22,17 @@ const ServiceDetails = () => {
     // const {name,picture,phone,email,description}=singleservice;
     return (
         <div>
-            <Card className="bg-dark text-black lh-lg">
+            <Card className="bg-dark text-black lh-lg text-center">
                 <Card.Img  className="opacity-75" src={singleservice?.picture} width="100%" height="700px" alt="Card image" />
                 <Card.ImgOverlay>
                     <Card.Title className="fs-1">{singleservice?.name}</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="fs-4">
                         {singleservice?.description}
                     </Card.Text>
-                    <Card.Text>For details, please contact us:</Card.Text>
-                    <p><span className="fw-bold">Email</span> {singleservice?.email}</p>
-                    <p><span className="fw-bold">Phone</span> {singleservice?.phone}</p>
+                    <Card.Text className="fs-4 fw-bolder border bg-info">For details, please contact us:</Card.Text>
+                    <p className="fw-bold"><span className="fs-4 fw-bold">Email : </span> {singleservice?.email}</p>
+                    <p className="fw-bold"><span className="fs-4 fw-bold">Phone : </span> {singleservice?.phone}</p>
+                    <Link to="/booking"><Button variant="warning" className="w-25 fw-bold">More Details and Appointment</Button></Link>
                 </Card.ImgOverlay>
             </Card>
         </div>

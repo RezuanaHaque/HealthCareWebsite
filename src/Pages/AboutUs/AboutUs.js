@@ -4,6 +4,7 @@ import { FormControl, InputGroup } from 'react-bootstrap';
 
 const AboutUs = () => {
     return (
+        // about us route 
         <div className="m-5 overflow-hidden">
             <h1 className="text-center m-5 fs-1">Welcome to <span className="text-danger fw-bold"> Health-Care</span></h1>
             <p className="text-center text-justify">Health-Care has over two decades of experience in the healthcare sector, <br /> and is known for providing quality healthcare and valuable experience to all domestic and international patients. <br /> Our healthcare offerings are supported by a team of compassionate and dedicated medical <br /> professionals who have rich knowledge and experience in their respective domains.</p>
